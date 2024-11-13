@@ -15,8 +15,6 @@ async function readLines(filename) {
 
 function displayHeader() {
   process.stdout.write('\x1Bc');
-  console.log('RUNNING NODEPAY DIRECTLY FROM YOUR IP'.cyan);
-  console.log();
 }
 
 async function askAccountType() {
