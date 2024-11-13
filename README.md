@@ -1,7 +1,5 @@
 # NODEPAY NETWORK
 
-![img](assets/image.png)
-
 A bot for automating Nodepay airdrop interactions, including session management and pinging with proxy support.
 
 ---
