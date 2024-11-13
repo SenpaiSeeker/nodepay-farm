@@ -31,14 +31,10 @@ npm install
 
 ## Configuration
 
-Before running the bot, you need to create two text files:
-
-### 1. `token.txt`
-
 To get your Bearer token:
 
 1. **Register for a Nodepay account**:
-- Go to [Nodepay Registration Page](https://app.nodepay.ai/register?ref=3WZFKKi0Hbvi1sd) and sign up for an account.
+- Go to Nodepay dashboard.
 
 2. **Get your token**:
 
