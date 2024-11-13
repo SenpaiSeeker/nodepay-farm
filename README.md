@@ -48,7 +48,7 @@ To get your Bearer token:
 
 - Type the following command to get your token:
   ```bash
-  javascript localStorage.getItem('np_webapp_token') 
+  localStorage.getItem('np_webapp_token') 
   ```
 
 - This will return the Bearer token. **Copy the token** (without the `Bearer` prefix, just the alphanumeric string).
