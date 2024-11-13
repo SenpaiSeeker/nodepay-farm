@@ -15,11 +15,7 @@ async function readLines(filename) {
 
 function displayHeader() {
   process.stdout.write('\x1Bc');
-  console.log('========================================'.cyan);
-  console.log('=        NODEPAY NETWORK BOT           ='.cyan);
-  console.log('=        Welcome & Enjoy Sir!          ='.cyan);
-  console.log('=        Author : Nofan Rambe          ='.cyan);
-  console.log('========================================'.cyan);
+  console.log('RUNNING NODEPAY DIRECTLY FROM YOUR IP'.cyan);
   console.log();
 }
 
