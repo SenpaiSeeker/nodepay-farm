@@ -4,7 +4,7 @@ class Config {
     this.ipCheckURL = 'https://ipinfo.io/json';
     this.pingURL = 'http://nw.nodepay.org/api/network/ping';
     this.retryInterval = 30000;
-    this.sessionURL = 'http://api.nodepay.ai/api/auth/session';
+    this.sessionURL = 'http://18.142.29.174/api/auth/session';
   }
 }
 
