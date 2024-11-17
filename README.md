@@ -85,7 +85,7 @@ To start the bot, run the following command:
 ```bash
 npm start
 ```
-## Configuration for Termux
+### Configuration for Termux
 
 **Install nodejs-lts in Termux**
 ```
