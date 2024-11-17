@@ -145,15 +145,6 @@ npm start
 ```
 Logs are stored in `bot.log` and can also be seen in the console.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-The bot will begin the process of connecting to the session, sending pings, and logging relevant information.
-
----
-
 ## Logs
 
 The bot will log the status and activity, including:
