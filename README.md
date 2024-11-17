@@ -85,7 +85,71 @@ To start the bot, run the following command:
 ```bash
 npm start
 ```
+## Configuration for Termux
 
+**Install nodejs-lts in Termux**
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install nodejs-lts
+```
+**Install git and nano**
+```
+pkg install git
+pkg install nano
+```
+
+**Clone the repository:**
+
+```bash
+git clone https://github.com/ashtrobe/nodepay-farm.git
+```
+**Change directory:**
+```
+cd nodepay-farm
+```
+**Install the dependencies:**
+
+```bash
+npm install
+```
+## Before running the bot, you need to put your token inside token.txt file.
+
+**To get your Bearer token:**
+
+- Download and install kiwi browser in your phone.
+- Go to Nodepay dashboard.
+- Open Developer Tools in kiwi browser.
+- Go to the **Console** tab in Developer Tools.
+- Type the following command to get your token:
+  ```bash
+  localStorage.getItem('np_webapp_token')
+  ```
+- This will return the Bearer token. ex: eyJhbGciOi.......
+
+**Paste the token in `token.txt`**:
+```
+nano token.txt
+```
+**Paste your proxies inside 
+```text
+proxy.txt
+```
+## Running the Bot
+
+**To start the bot, run the following command:**
+
+```bash
+npm start
+```
+Logs are stored in `bot.log` and can also be seen in the console.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 The bot will begin the process of connecting to the session, sending pings, and logging relevant information.
 
 ---
