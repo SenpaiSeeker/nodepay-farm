@@ -132,9 +132,9 @@ npm install
 ```
 nano token.txt
 ```
-**Paste your proxies inside 
+**Paste your proxies inside:**
 ```text
-proxy.txt
+nano proxy.txt
 ```
 ## Running the Bot
 
