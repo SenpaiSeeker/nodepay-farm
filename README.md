@@ -33,12 +33,12 @@ npm install
 
 To get your Bearer token:
 
-1. **Register for a Nodepay account**:
+1. **Register for a Nodepay account** (https://app.nodepay.ai/register?ref=YGD2t6PkCbq9H4P)
 - Go to Nodepay dashboard.
 
 2. **Get your token**:
 
-- Open **DevTools** in your browser (right-click > Inspect or press `Ctrl+Shift+I`).
+- Open **DevTools** in your browser (right-click > Inspect or press `F12`).
 
 - Go to the **Console** tab in DevTools.
 
