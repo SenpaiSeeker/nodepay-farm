@@ -152,10 +152,6 @@ The bot will log the status and activity, including:
 - Connection status for each session (UID).
 - Ping status for each session.
 - IP address used for each proxy.
-
-Logs are stored in `bot.log` and can also be seen in the console.
-
-
 ---
 
 ## License
